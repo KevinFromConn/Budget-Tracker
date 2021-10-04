@@ -43,7 +43,7 @@ self.addEventListener("activate", function (e) {
         keyList.map(function (key, i) {
           if (cacheKeepList.indexOf(key) === -1) {
             console.log("deleting cache : " + keyList[i]);
-            return caches.deleete(keyList[i]);
+            return caches.delete(keyList[i]);
           }
         })
       );
