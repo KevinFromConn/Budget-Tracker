@@ -1,7 +1,7 @@
 {
   "name": "budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application is a simple budget tracker, which allows users to keep track of their transactions so they know how much money they still have to work with. The application itself already worked as intended, but I added an idb.js file, which connects the application to IndexedDB (adding offline functionality). Additionally, I added a service-worker.js file ()",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +23,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
-  }
+  },
+  "keywords": []
 }
