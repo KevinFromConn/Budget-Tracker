@@ -38,6 +38,7 @@ self.addEventListener("activate", function (e) {
       let cacheKeepList = keyList.filter(function (key) {
         return key.indexOf(APP_PREFIX);
       });
+      cacheKeepList.push(CACHE_NAME);
 
       return Promise.all(
         keyList.map(function (key, i) {
